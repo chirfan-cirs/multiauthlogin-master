@@ -11,7 +11,7 @@
         </div>
     </div>
     <!-- Small Box (Stat card) -->
-    <h5 class="mb-2 mt-4">Small Box</h5>
+    <h5 class="mb-2 mt-4">Small Boxx</h5>
     <div class="row">
         <div class="col-lg-3 col-6">
             <!-- small card -->
