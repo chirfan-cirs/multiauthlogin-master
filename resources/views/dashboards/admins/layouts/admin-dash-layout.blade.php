@@ -11,7 +11,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>@yield('title')</title>
   <base href="{{ \URL::to('/') }}">
-  <link rel="icon" href="{{ asset('dist/img/co_logo.png')}}">
+  <link rel="icon" href="{{ asset('dist/img/LogoXaxaxaWeb.png')}}">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
@@ -51,8 +51,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="{{ \URL::to('/')}}" class="brand-link">
-        <img src="dist/img/co_logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Sinar Indah Padma</span>
+        <img src="dist/img/LogoXaxaxaWeb.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <span class="brand-text font-weight-light">Xaxaxa</span>
       </a>
 
       <!-- Sidebar -->

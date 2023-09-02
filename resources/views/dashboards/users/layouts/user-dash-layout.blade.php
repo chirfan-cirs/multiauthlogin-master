@@ -30,7 +30,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <li class="nav-item">
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
-        <li class="nav-item d-none d-sm-inline-block">
+
+
+        <!-- Logout Button -->
+        <!-- <li class="nav-item d-none d-sm-inline-block">
           <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
                             document.getElementById('logout-form').submit();">
             {{ __('Logout') }}
@@ -39,7 +42,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
             @csrf
           </form>
-        </li>
+        </li> -->
+      
       </ul>
 
 
@@ -59,7 +63,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
           <div class="image">
-            <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img class="profile-user-img img-fluid img-circle admin_picture" src="{{ Auth::user()->picture }}" alt="User profile picture">
           </div>
           <div class="info">
             <a href="{{ route('user.profile')}}" class="d-block">{{ Auth::user()->name }}</a>

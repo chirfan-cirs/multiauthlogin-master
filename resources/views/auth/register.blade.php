@@ -76,7 +76,7 @@
 									</button>
 								</div>
 								<div class="mt-4 text-center">
-									Already have an account? <a href="{{route('login')}}">Login</a>
+									Sudah punya Akun? <a href="{{route('login')}}">Masuk disini</a>
 								</div>
 							</form>
 						</div>

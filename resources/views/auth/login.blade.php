@@ -61,10 +61,12 @@
 
 								<div class="form-group m-0">
 									<button type="submit" class="btn btn-primary btn-block">
-										Login
+										Masuk
 									</button>
 								</div>
-								
+								<div class="mt-4 text-center">
+									Tidak punya Akun? <a href="{{route('register')}}">Buat Akun</a>
+								</div>
 							</form>
 						</div>
 					</div>
